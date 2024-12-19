@@ -2,7 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  background-color: black;
-  color: white;
+
+
+
+@layer components{
+  .formField{
+      @apply border-2 border-gray-300 rounded-lg text-sm h-10 px-5 pr-5 outline-none
+  }
+
+  .card{
+      @apply border border-gray-200 rounded-md p-5
+  }
+
+ 
+
+  
+  
 }
