@@ -183,7 +183,6 @@ export const App = () => {
                   label="Task Name"
                   type="text"
                   name="name"
-                  value=""
                   onChange={(e) => setTask(e)}
                 />
                 <Textarea
