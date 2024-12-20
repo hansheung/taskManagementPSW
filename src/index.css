@@ -2,20 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
-@layer components{
-  .formField{
-      @apply border-2 border-gray-300 rounded-lg text-sm h-10 px-5 pr-5 outline-none
+@layer components {
+  .formField {
+    @apply rounded-lg text-sm h-10 px-5 pr-5 outline-none;
   }
 
-  .card{
-      @apply border border-gray-200 rounded-md p-5
+  .card {
+    @apply rounded-md p-5;
   }
-
- 
-
-  
-  
 }
