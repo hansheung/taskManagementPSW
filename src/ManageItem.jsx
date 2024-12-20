@@ -16,7 +16,6 @@ export const AddItem = (d) => {
 export const DeleteItem = (id) => {
   const _currentTasks = localStorage.getItem("tasks");
   let currentTasks = JSON.parse(_currentTasks);
-  let deletedCurrentTasks = currentTasks[0]["id"];
   localStorage.setItem(
     "tasks",
     JSON.stringify(currentTasks.filter((ct) => ct.id !== id))
