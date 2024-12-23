@@ -55,7 +55,7 @@ export const App = () => {
         if (!stat && id !== null) {
             populateEditForm(id);
         } else {
-            // Clear form when adding new task
+            // Clear form when adding New task
             setTaskData({});
         }
 
