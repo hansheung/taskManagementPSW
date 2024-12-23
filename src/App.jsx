@@ -179,7 +179,7 @@ export const App = () => {
                             <ModalBody>
                                 <Input label="Task Name" type="text" name="name" value={taskData.name || ""} onChange={(e) => setTask(e)} />
                                 <Textarea label="Task Description" maxRows="10" name="description" value={taskData.description || ""} onChange={(e) => setTask(e)} />
-                                <Select label="Priority" defaultValue="medium" name="category" selectedKeys={taskData.category ? [taskData.category] : ["medium"]} onChange={(e) => setTask(e)}>
+                                <Select label="Priority" defaultValue="medium" name="category" selectedKeys={[taskData.category]} onChange={(e) => setTask(e)}>
                                     {priority.map((item) => (
                                         <SelectItem key={item.key} value={item.key}>
                                             {item.label}
